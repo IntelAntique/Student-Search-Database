@@ -1,0 +1,4 @@
+Aidan,80,weirdo
+Alex,90
+Mauricio,60,44
+Ashton,70

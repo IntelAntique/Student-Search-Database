@@ -1,0 +1,101 @@
+<<<<<<< HEAD
+Script started on 2023-03-29 16:07:16-05:00 [TERM="xterm" TTY="/dev/pts/20" COLUMNS="80" LINES="24"]
+[?2004h[aford@royal-18] (1)$ git status
+[?2004lOn branch DataWrangler
+Your branch is ahead of 'origin/DataWrangler' by 1 commit.
+  (use "git push" to publish your local commits)
+
+=======
+Script started on 2023-03-29 23:30:29+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;hfoong@project1: ~/Project2_CH_blue[01;32mhfoong@project1[00m:[01;34m~/Project2_CH_blue[00m$ [7mgit status[27mgit status
+[?2004lOn branch AlgorithmEngineer
+>>>>>>> origin/AlgorithmEngineer
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlog[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+<<<<<<< HEAD
+[?2004h[aford@royal-18] (2)$ git log -1
+[?2004l[?1h=[33mcommit 2df83cf5c86dee85993897a8039a20712b3f8fb6[m[33m ([m[1;36mHEAD -> [m[1;32mDataWrangler[m[33m)[m[m
+Author: Aidan <ford23@wisc.edu>[m
+Date:   Wed Mar 29 16:06:44 2023 -0500[m
+[m
+    all classes finalized along with adjusted Makefile[m
+[K[?1l>[?2004h[aford@royal-18] (3)$ make clean
+[?2004lrm *.class
+rm: cannot remove '*.class': No such file or directory
+make: *** [Makefile:8: clean] Error 1
+[?2004h[aford@royal-18] (4)$ ls
+[?2004lBadStudentDataset.txt      junit5.jar          StudentDW.java
+DataWranglerTests.java     log                 StudentInterface.java
+InfoGrabberDW.java         Makefile
+InfoGrabberInterface.java  StudentDataset.txt
+[?2004h[aford@royal-18] (5)$ make runTests
+[?2004ljavac -cp .:junit5.jar DataWranglerTests.java
+java -jar junit5.jar -cp . --select-class=DataWranglerTests
+WARNING: data within the file did not contain 2 pieces of data containing a NAME and SCORE
+WARNING: data within the file did not contain 2 pieces of data containing a NAME and SCORE
+=======
+[?2004h]0;hfoong@project1: ~/Project2_CH_blue[01;32mhfoong@project1[00m:[01;34m~/Project2_CH_blue[00m$ [7mgit log -1[27mgit log -1
+[?2004l[?1h=[33mcommit 63cbc4583d6ae99a437e24c6f459de6a58aed50e[m[33m ([m[1;36mHEAD -> [m[1;32mAlgorithmEngineer[m[33m)[m[m
+Author: Han Yu Foong <hfoong@wisc.edu>[m
+Date:   Wed Mar 29 23:16:10 2023 +0000[m
+[m
+    Added files as Algorithm Engineer[m
+[K[?1l>[?2004h]0;hfoong@project1: ~/Project2_CH_blue[01;32mhfoong@project1[00m:[01;34m~/Project2_CH_blue[00m$ [7mmake clean[27mmake clean
+[?2004lrm *.class
+[?2004h]0;hfoong@project1: ~/Project2_CH_blue[01;32mhfoong@project1[00m:[01;34m~/Project2_CH_blue[00m$ [7mls[27mls
+[?2004lAlgorithmEngineerTests.java  NewNode.java  RBTree.java           RedBlackTree.java               [0m[01;31mjunit5.jar[0m
+Makefile                     NodeAE.java   RBTreeInterface.java  SortedCollectionInterface.java  log
+[?2004h]0;hfoong@project1: ~/Project2_CH_blue[01;32mhfoong@project1[00m:[01;34m~/Project2_CH_blue[00m$ [7mmake runTests[27mmake runTests
+[?2004ljavac -cp .:junit5.jar AlgorithmEngineerTests.java
+java -jar junit5.jar -cp . --select-class=AlgorithmEngineerTests
+>>>>>>> origin/AlgorithmEngineer
+
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+[36m╷[0m
+[36m├─[0m [36mJUnit Jupiter[0m [32m✔[0m
+<<<<<<< HEAD
+[36m│  └─[0m [36mDataWranglerTests[0m [32m✔[0m
+=======
+[36m│  └─[0m [36mAlgorithmEngineerTests[0m [32m✔[0m
+>>>>>>> origin/AlgorithmEngineer
+[36m│     ├─[0m [34mtest1()[0m [32m✔[0m
+[36m│     ├─[0m [34mtest2()[0m [32m✔[0m
+[36m│     ├─[0m [34mtest3()[0m [32m✔[0m
+[36m│     ├─[0m [34mtest4()[0m [32m✔[0m
+[36m│     └─[0m [34mtest5()[0m [32m✔[0m
+[36m├─[0m [36mJUnit Vintage[0m [32m✔[0m
+[36m└─[0m [36mJUnit Platform Suite[0m [32m✔[0m
+
+<<<<<<< HEAD
+Test run finished after 58 ms
+=======
+Test run finished after 183 ms
+>>>>>>> origin/AlgorithmEngineer
+[         4 containers found      ]
+[         0 containers skipped    ]
+[         4 containers started    ]
+[         0 containers aborted    ]
+[         4 containers successful ]
+[         0 containers failed     ]
+[         5 tests found           ]
+[         0 tests skipped         ]
+[         5 tests started         ]
+[         0 tests aborted         ]
+[         5 tests successful      ]
+[         0 tests failed          ]
+
+<<<<<<< HEAD
+[?2004h[aford@royal-18] (6)$ exit
+[?2004lexit
+
+Script done on 2023-03-29 16:08:00-05:00 [COMMAND_EXIT_CODE="0"]
+=======
+[?2004h]0;hfoong@project1: ~/Project2_CH_blue[01;32mhfoong@project1[00m:[01;34m~/Project2_CH_blue[00m$ [7mexit[27mexit
+[?2004lexit
+
+Script done on 2023-03-29 23:31:03+00:00 [COMMAND_EXIT_CODE="0"]
+>>>>>>> origin/AlgorithmEngineer
